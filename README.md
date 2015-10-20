@@ -22,3 +22,9 @@ What's Left?
 Where else?
 -----------
 [PSUDP](https://media.blackhat.com/bh-us-10/whitepapers/Born/BlackHat-USA-2010-Born-psudp-Passive-Network-Covert-Communication-wp.pdf)
+
+
+
+- client.py sends DNS queries with data appended to them
+- crafter.py is a very brittle script than inserts data between labels with forward pointers
+- server.py forwards DNS queries and responds with the answer
